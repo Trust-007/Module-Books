@@ -1,3 +1,4 @@
+/* eslint-disable */
 import createBook from './modules/createBook.js';
 import form from './modules/form.js';
 import spa from './modules/spa.js';
@@ -5,7 +6,7 @@ import { DateTime } from './modules/luxon.js';
 
 export const booksSection = document.getElementById('book-list');
 const formData = document.getElementById('form');
-createBook(booksSection);
+createBook();
 form(formData);
 
 // spa code start

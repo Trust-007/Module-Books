@@ -1,3 +1,4 @@
+/* eslint-disable */
 import removeBook from './removeBook.js';
 import { booksSection } from '../index.js';
 
